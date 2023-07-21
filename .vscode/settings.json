@@ -1,0 +1,9 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Program Files\\IBM\\VSE Connector Client\\cci.jar",
+        "c:\\Program Files\\IBM\\VSE Connector Client\\ibmjsse.jar",
+        "c:\\Program Files\\IBM\\VSE Connector Client\\ibmpkcs.jar",
+        "c:\\Program Files\\IBM\\VSE Connector Client\\VSEConnector.jar"
+    ]
+}

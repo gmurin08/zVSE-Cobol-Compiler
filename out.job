@@ -1,0 +1,20 @@
+// JOB COBOL COMPILE AND RUN
+// OPTION ERRS,NOXREF,NOSYM,NODECK,LINK
+// EXEC IGYCRCTL,SIZE=IGYCRCTL
+ CBL LIB, APOST,LIST,NOADV,TEST,BUF(4096)
+       IDENTIFICATION DIVISION.                                          *===*
+       PROGRAM-ID.         COBTEST.                                      *===*
+       ENVIRONMENT DIVISION.                                             *===*
+       PROCEDURE DIVISION.                                               *===*
+           DISPLAY '***HELLO VSE***' UPON CONSOLE.                       *===*
+           STOP RUN.                                                     *===*
+/*
+// IF $MRC GT 4 THEN
+// GOTO NOLNK
+// EXEC LNKEDT,SIZE=256K
+// ASSGN SYS007,360
+// TLBL SYS007,''
+// EXEC
+/. NOLNK
+/&
+* $$ EOJ

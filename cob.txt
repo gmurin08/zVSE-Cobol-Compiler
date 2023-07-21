@@ -1,0 +1,6 @@
+       IDENTIFICATION DIVISION.                                          *===*
+       PROGRAM-ID.         COBTEST.                                      *===*
+       ENVIRONMENT DIVISION.                                             *===*
+       PROCEDURE DIVISION.                                               *===*
+           DISPLAY '***HELLO VSE***' UPON CONSOLE.                       *===*
+           STOP RUN.                                                     *===*
